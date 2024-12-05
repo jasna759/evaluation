@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    enter first number:<input type="text" id="demo"><br>
+    <button onclick="dis()">swap</button>
+    enteer second number:<input type="text" id="demo1"><br>
+
+    <script>
+        function dis()
+        {
+            var a
+            a=Number(document.getElementById("demo").value)
+        
+        if(a==10)
+        {
+            document.getElementById("demo1").value="equal to 10"
+        }
+        else if(a==20)
+        {
+            document.getElementById("demo1").value="equal to 20"
+        }
+        else if(a==30)
+        {
+            document.getElementById("demo1").value="equal to 30"
+        }
+        else
+        {
+            document.getElementById("demo1").value="default"
+        }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+h{
+    background-color: grey;
+    color: red;
+    text-align: center;
+    border: 3px solid blue;
+    
+}
+p{
+    background-image: url(https://fps.cdnpk.net/images/home/subhome-ai.webp?w=649&h=649);
+    color: blue;
+    font-size: 25px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Enter First Number:<input type="text" id="demo"><br>
+    Enter Second Number:<input type="text" id="demo1"><br>
+
+    <button onclick="swap()">swap</button>  <br>  
+    
+     First Number:<input type="text" id="demo2"><br>
+     Second Number:<input type="text" id="demo3"><br>
+<script>
+    function swap()
+    {
+        var a,b;
+        a=Number(document.getElementById("demo").value)
+        b=Number(document.getElementById("demo1").value)
+        a=a+b;
+        b=a-b;
+        a=a-b;
+        document.getElementById("demo2").value=a
+        document.getElementById("demo3").value=b
+    }
+</script>
+</body>
+</html>

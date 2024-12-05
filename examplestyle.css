@@ -1,0 +1,20 @@
+h2{
+    background-color: gray;
+    color: black;
+    border: 2px solid black;
+    
+}
+p{
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/08/Best-Nature-Full-HD-Images-For-Desktop.jpg');
+    color:orange;
+    text-align: center;
+    padding: 2%;
+    margin : 5%;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    float: right;
+    
+}

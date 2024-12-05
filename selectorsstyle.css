@@ -1,0 +1,19 @@
+h1{
+    background-color: red;
+    color: black;
+    border: 2px solid black;
+    margin-left: 5%;
+}
+h2,h3{
+    background-color: blue;
+}
+#h4id{
+    background-color: azure;
+}
+.h5class{
+    background-color: green;
+}
+*{
+    text-align: center;
+    margin: 5%;
+}

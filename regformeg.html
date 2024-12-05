@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,tr,th,td{
+            border: 2px solid black;
+            border-collapse: collapse;
+            
+
+        }
+        table{
+            width: 100%;
+            margin-left: 15%;
+            margin-top: 15%;
+            background-color:green;
+        }
+        tr,th,td{
+            padding: 2%;
+            
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>firstname</td>
+             <th><input type="text"></th>
+        </tr>
+        <tr>
+            <td>lastname</td>
+             <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>photo</td>
+             <td><input type="file"></td>
+        </tr>
+        <tr>
+            <td>dateofbirth</td>
+             <td><input type="date"></td>
+        </tr>
+        <tr>
+            <td>email</td>
+             <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>mobile number</td>
+             <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>gender</td>
+             <td> <input type="radio" required name="gender">male <input type="radio"required name="gender">female</td>
+        </tr>
+        <tr>
+            <td>address</td>
+             <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>city</td>
+             <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>pincode</td>
+             <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>state</td>
+             <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>country</td>
+             <td><select name="" id="" required>
+                <option value="">india</option>
+                <option value="">germany</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>hobbies</td>
+             <td><input type="checkbox" required> drawing<input type="checkbox" required> painting<input type="checkbox" required> singing</td>
+             
+        </tr>
+        <tr>
+            <td>qualification</td>
+             <td>
+                <table>
+                    <tr>
+                    <th>slno</th>
+                    <th>examination</th>
+                    <th>board</th>
+                    <th>percentage</th>
+                    <th>year of passing</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>class10</td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>class12</td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>degree</td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                    </tr>
+
+
+                </table></td>
+
+             
+        </tr>
+        <tr>
+            <td>courses applied for</td>
+             <td><input type="checkbox" required> BSC<input type="checkbox" required> BCA<input type="checkbox" required> BA</td>
+             
+        </tr>
+        
+
+    </table>
+</body>
